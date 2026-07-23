@@ -1,22 +1,83 @@
 aid: aelita
-name: Aelita
-description: Aelita is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aelita.png
+name: Aelita Software
+description: >-
+  Aelita Software Corporation was an enterprise systems-management software
+  company founded in 1998 by Ratmir Timashev (who later co-founded Veeam
+  Software). Headquartered in the Columbus, Ohio area (Dublin/Powell, OH),
+  Aelita built Windows infrastructure management tooling for Microsoft Active
+  Directory and Microsoft Exchange environments — including migration,
+  directory management, auditing, reporting, security analysis, systems
+  monitoring, and disaster recovery. Marquee products included Migration
+  Manager for Active Directory, Migration Manager for Exchange, Secure Copy,
+  Enterprise Reporter, Recovery Manager for Active Directory, ActiveRoles
+  Server, and InTrust. Insight Partners was an early investor. Aelita was
+  acquired by Quest Software in March 2004 for approximately $115 million and
+  its technology was folded into Quest's Windows Management line (much of which
+  is now part of One Identity). The company has had no independent operation
+  since 2004; it exposed no public developer API, developer portal, or
+  documentation surface, and there is no live web presence today (the aelita.com
+  domain is parked/for sale). This profile is retained as a historical Insight
+  Partners portfolio record — there is no active developer surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/aelita/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: historical
+x-tier-reason: exited-acquired-no-developer-surface
+x-status: exited
+x-founded: '1998'
+x-founder: Ratmir Timashev
+x-headquarters: Dublin, Ohio, USA
+x-acquired-by: Quest Software
+x-acquired-date: '2004-03'
+x-acquired-amount-usd: 115000000
+x-successor: One Identity (Quest Software Windows Management)
+x-enrichment-note: >-
+  Defunct/acquired company (Quest Software, 2004). No live API, developer
+  portal, documentation, SDKs, or event surface exists; no artifacts were
+  fabricated. Only historical identity facts were captured from public sources.
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Systems Management
+- Active Directory
+- Microsoft Exchange
+- Windows Management
+- Identity Management
+- Migration
+- Enterprise Software
+- Acquired
+- Historical
 apis: []
+common:
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Aelita_Software_Corporation
+- type: InvestorProfile
+  url: https://www.insightpartners.com/portfolio/aelita/
+- type: CompanyProfile
+  url: https://www.crunchbase.com/organization/aelita-software
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
